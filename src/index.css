@@ -1,0 +1,81 @@
+* {
+	background-color: #333;
+}
+.App {
+	text-align: center;
+	background-color: #333; /* Ana arka plan rengi */
+	color: #fff; /* Metin rengi */
+	padding: 20px;
+}
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+	color: #ffffff; /* Başlık rengi */
+}
+.form {
+	margin: 20px;
+	padding: 50px;
+	background-color: #1a1a1a; /* Form arka plan rengi */
+	border-radius: 6px;
+}
+
+input[type='text'] {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.2em;
+
+	color: #fff; /* Girdi kutusu metin rengi */
+	border: none;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #646cff; /* Ekle butonunun rengi */
+	color: #fff; /* Ekle butonunun metin rengi */
+	border: none;
+	border-radius: 8px;
+	margin: 5px;
+	padding: 10px 20px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+button:hover {
+	background-color: #535bf2; /* Butona tıklanınca değişecek renk */
+}
+
+.notes {
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+.note {
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note span {
+	flex: 1;
+	color: #fff; /* Not metin rengi */
+}
+
+.note button {
+	background-color: #ff4141; /* Sil butonunun rengi */
+	color: #fff; /* Sil butonunun metin rengi */
+	border: none;
+	border-radius: 8px;
+	padding: 5px 10px;
+	font-size: 0.8em;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+.note button:hover {
+	background-color: #ff0000; /* Butona tıklanınca değişecek renk */
+}
